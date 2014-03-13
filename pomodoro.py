@@ -19,6 +19,7 @@ while True:
     ring("MetalGong")
 
     times += 1
+    print()
     print("You have completed {} Pomodoros.".format(times))
 
     fun = 0
