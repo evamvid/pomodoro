@@ -18,16 +18,14 @@ while True:
         tomato += 1
     ring("MetalGong")
 
+    times += 1
+    print("You have completed {} Pomodoros.".format(times))
+
     fun = 0
     while fun <= 300:
         funTimeleft = 300 - fun
         funFormatted = str(datetime.timedelta(seconds=funTimeleft))
-        sys.stdout.write('\r'+ formatted)
+        sys.stdout.write('\r'+ funFormatted)
         time.sleep( 1 )
         fun +=1
     ring("AirHorn")
-        
-    times += 1
-    print("You have completed" + times + "Pomodoros.")
-    
-      
