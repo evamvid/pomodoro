@@ -20,7 +20,7 @@ while True:
 
     times += 1
     print()
-    print("You have completed {} Pomodoros.".format(times))
+    print("/r" + "You have completed {} Pomodoros.".format(times))
 
     fun = 0
     while fun <= 300:
